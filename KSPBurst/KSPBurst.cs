@@ -15,6 +15,7 @@ using UniLinq;
 using Unity.Burst;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
+using BurstCompiler = Unity.Burst.BurstCompiler;
 
 // ReSharper disable MemberCanBePrivate.Global
 
