@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="KSPBurst.MSBuildTasks.targets" />
   <PropertyGroup>
     <AssemblyName>KSPBurst</AssemblyName>
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>$(ReferencePath)\GameData\000_Harmony\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <!-- Shipped with the mod - reference from GameData -->
     <Reference Include="System.IO.Compression">
@@ -49,6 +50,7 @@
     </Reference>
     <Reference Include="netstandard">
       <HintPath>$(ReferencePath)\KSP_x64_Data\Managed\netstandard.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(ReferencePath)\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
